@@ -6,23 +6,22 @@ This project focuses on developing a DeFi app which implements the concept of yi
   <img src="https://user-images.githubusercontent.com/22610163/104134982-2b389a00-539e-11eb-9ac7-642dbe48ec4d.gif">
 </p>
 
-Demo of the DApp with the screenshots can be found on [this wiki page](https://github.com/ahmetozlu/defi_yield_farming/wiki/Demo-of-the-DApp).
 
 ---
+
 This repository presents practices about:
 - Setup a blockchain.
 - Develop Ethereum smart contracts.
 - Write tests for the developed Ethereum smart contracts. 
 - Develop a client-side website so people can actually use this application.
----
-
-You can check the quick tutorial about "what is the blockchain?" in [here](https://ahmetozlu93.medium.com/blockchain-in-a-nutshell-8ad72743971e).
 
 ---
+
 ToDos:
 - Add OpenZeppelin Contracts to minimize risks.
 - Develop a new feature to keep track of the rewards.
 - Implement a method to withdraw the rewards automatically when certain conditions are met (it is triggered manually in the current version).
+
 ---
 
 ## Theory
@@ -88,23 +87,12 @@ Here is the application software architecture work-flow:
 
       truffle exec scripts/issue-tokens.js
 
-Demo of the DApp with the screenshots can be found on [this wiki page](https://github.com/ahmetozlu/defi_yield_farming/wiki/Demo-of-the-DApp).
-
-## Citation
-If you use this code for your publications, please cite it as:
-
-    @ONLINE{
-        author = "Ahmet Özlü",
-        title  = "DeFi Yield Farming App",
-        year   = "2021",
-        url    = "https://github.com/ahmetozlu/defi_yield_farming"
-    }
 
 ## References
 This project was built on top of **Dapp University** implementation, [here](https://github.com/dappuniversity/defi_tutorial) you can find more details.
 
 ## Author
-Ahmet Özlü
+Michael Kalchenko
 
 ## License
 This system is available under the MIT license. See the LICENSE file for more info.
